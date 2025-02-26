@@ -1,0 +1,92 @@
+/* universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* font-family */
+/* Bodoni moda */
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Delius+Swash+Caps&family=DynaPuff:wght@400..700&family=Meow+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.bodoni {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+.roboto {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+
+:root {
+    --background: #FFF1DE;
+    --primary-font-size: 18px;
+
+}
+
+
+body {
+    background-color: var(--background);
+    font-family: roboto;
+    font-size: var(--primary-font-size);
+}
+
+.navbar{
+    background-color: rgb(160, 238, 238);
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 100px ){
+    .navbar{
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+.logo{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ .logo-image{
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    text-align: center;
+ }
+
+ .remove-decoration{
+    text-decoration: none;
+ }
+
+ .nav{
+    border: 2px solid black;
+ }
+
+ .feedback{
+    border: 2px solid black;
+ }
+
+ 
